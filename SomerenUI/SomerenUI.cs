@@ -17,6 +17,7 @@ namespace SomerenUI
         {
             // hide all other panels
             pnlStudents.Hide();
+            pnlRooms.Hide();
 
             // show dashboard
             pnlDashboard.Show();
@@ -62,10 +63,59 @@ namespace SomerenUI
             }
         }
 
+
+        // show the rooms panel 
+        private void ShowRoomsPanel()
+        {
+            // hide all other panels
+            pnlDashboard.Hide();
+            pnlStudents.Hide();
+
+            // show rooms panel
+            pnlRooms.Show();
+
+            try
+            {
+                // get and display all rooms
+                List<Room> rooms = GetRooms();
+                DisplayRooms(rooms);
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show("Something went wrong while loading the rooms: " + e.Message);
+            }
+        }
+
+
+        // get all rooms
+        private List<Room> GetRooms()
+        {
+            RoomService roomService = new RoomService();
+            List<Room> rooms = roomService.GetRooms();
+            return rooms;
+        }
+
+        // display all rooms
+        private void DisplayRooms(List<Room> rooms)
+        {
+            // clear the listview before filling it
+            listViewRooms.Clear();
+
+            foreach (Room room in rooms)
+            {
+                ListViewItem li = new ListViewItem(Convert.ToString(room.Number));
+                li.Tag = room;   // link room object to listview item
+                listViewRooms.Items.Add(li);
+            }
+        }
+
+
         private void dashboardToolStripMenuItem1_Click(object sender, System.EventArgs e)
         {
             ShowDashboardPanel();
         }
+
+
 
         private void exitToolStripMenuItem_Click(object sender, System.EventArgs e)
         {
@@ -75,6 +125,16 @@ namespace SomerenUI
         private void studentsToolStripMenuItem_Click(object sender, EventArgs e)
         {
             ShowStudentsPanel();
+        }
+
+        private void listViewRooms_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void roomsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ShowRoomsPanel();
         }
     }
 }
