@@ -40,19 +40,24 @@
             pnlDashboard = new System.Windows.Forms.Panel();
             lblDashboard = new System.Windows.Forms.Label();
             pnlStudents = new System.Windows.Forms.Panel();
-            pnlRooms = new System.Windows.Forms.Panel();
-            pictureBox2 = new System.Windows.Forms.PictureBox();
-            listViewRooms = new System.Windows.Forms.ListView();
-            label2 = new System.Windows.Forms.Label();
             pictureBox1 = new System.Windows.Forms.PictureBox();
             listViewStudents = new System.Windows.Forms.ListView();
             label1 = new System.Windows.Forms.Label();
+            pnlRooms = new System.Windows.Forms.Panel();
+            pictureBox2 = new System.Windows.Forms.PictureBox();
+            listViewRooms = new System.Windows.Forms.ListView();
+            roomNumber = new System.Windows.Forms.ColumnHeader();
+            building = new System.Windows.Forms.ColumnHeader();
+            floor = new System.Windows.Forms.ColumnHeader();
+            numberOfBeds = new System.Windows.Forms.ColumnHeader();
+            type = new System.Windows.Forms.ColumnHeader();
+            label2 = new System.Windows.Forms.Label();
             menuStrip1.SuspendLayout();
             pnlDashboard.SuspendLayout();
             pnlStudents.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             pnlRooms.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // menuStrip1
@@ -134,7 +139,6 @@
             // 
             // pnlStudents
             // 
-            pnlStudents.Controls.Add(pnlRooms);
             pnlStudents.Controls.Add(pictureBox1);
             pnlStudents.Controls.Add(listViewStudents);
             pnlStudents.Controls.Add(label1);
@@ -143,49 +147,6 @@
             pnlStudents.Name = "pnlStudents";
             pnlStudents.Size = new System.Drawing.Size(1608, 932);
             pnlStudents.TabIndex = 2;
-            // 
-            // pnlRooms
-            // 
-            pnlRooms.Controls.Add(pictureBox2);
-            pnlRooms.Controls.Add(listViewRooms);
-            pnlRooms.Controls.Add(label2);
-            pnlRooms.Location = new System.Drawing.Point(0, 0);
-            pnlRooms.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            pnlRooms.Name = "pnlRooms";
-            pnlRooms.Size = new System.Drawing.Size(1608, 932);
-            pnlRooms.TabIndex = 3;
-            // 
-            // pictureBox2
-            // 
-            pictureBox2.Image = (System.Drawing.Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new System.Drawing.Point(1380, 0);
-            pictureBox2.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new System.Drawing.Size(223, 246);
-            pictureBox2.TabIndex = 2;
-            pictureBox2.TabStop = false;
-            // 
-            // listViewRooms
-            // 
-            listViewRooms.Location = new System.Drawing.Point(27, 84);
-            listViewRooms.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            listViewRooms.Name = "listViewRooms";
-            listViewRooms.Size = new System.Drawing.Size(1310, 610);
-            listViewRooms.TabIndex = 1;
-            listViewRooms.UseCompatibleStateImageBehavior = false;
-            listViewRooms.View = System.Windows.Forms.View.List;
-            listViewRooms.SelectedIndexChanged += listViewRooms_SelectedIndexChanged;
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            label2.Location = new System.Drawing.Point(22, 14);
-            label2.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            label2.Name = "label2";
-            label2.Size = new System.Drawing.Size(153, 57);
-            label2.TabIndex = 0;
-            label2.Text = "Rooms";
             // 
             // pictureBox1
             // 
@@ -217,6 +178,78 @@
             label1.TabIndex = 0;
             label1.Text = "Students";
             // 
+            // pnlRooms
+            // 
+            pnlRooms.Controls.Add(pictureBox2);
+            pnlRooms.Controls.Add(listViewRooms);
+            pnlRooms.Controls.Add(label2);
+            pnlRooms.Location = new System.Drawing.Point(16, 48);
+            pnlRooms.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
+            pnlRooms.Name = "pnlRooms";
+            pnlRooms.Size = new System.Drawing.Size(1608, 932);
+            pnlRooms.TabIndex = 3;
+            // 
+            // pictureBox2
+            // 
+            pictureBox2.Image = (System.Drawing.Image)resources.GetObject("pictureBox2.Image");
+            pictureBox2.Location = new System.Drawing.Point(1380, 0);
+            pictureBox2.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new System.Drawing.Size(223, 246);
+            pictureBox2.TabIndex = 2;
+            pictureBox2.TabStop = false;
+            // 
+            // listViewRooms
+            // 
+            listViewRooms.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] { roomNumber, building, floor, numberOfBeds, type });
+            listViewRooms.Location = new System.Drawing.Point(27, 84);
+            listViewRooms.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
+            listViewRooms.Name = "listViewRooms";
+            listViewRooms.Size = new System.Drawing.Size(1310, 610);
+            listViewRooms.TabIndex = 1;
+            listViewRooms.UseCompatibleStateImageBehavior = false;
+            listViewRooms.View = System.Windows.Forms.View.Details;
+            // 
+            // roomNumber
+            // 
+            roomNumber.Text = "Room Number";
+            roomNumber.Width = 150;
+            // 
+            // building
+            // 
+            building.Text = "Building";
+            building.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            building.Width = 120;
+            // 
+            // floor
+            // 
+            floor.Text = "Floor";
+            floor.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            floor.Width = 100;
+            // 
+            // numberOfBeds
+            // 
+            numberOfBeds.Text = "Number of Beds";
+            numberOfBeds.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            numberOfBeds.Width = 200;
+            // 
+            // type
+            // 
+            type.Text = "Type";
+            type.Width = 100;
+            type.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            label2.Location = new System.Drawing.Point(22, 30);
+            label2.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            label2.Name = "label2";
+            label2.Size = new System.Drawing.Size(153, 57);
+            label2.TabIndex = 0;
+            label2.Text = "Rooms";
+            // 
             // SomerenUI
             // 
             AutoScaleDimensions = new System.Drawing.SizeF(12F, 30F);
@@ -225,6 +258,7 @@
             Controls.Add(menuStrip1);
             Controls.Add(pnlStudents);
             Controls.Add(pnlDashboard);
+            Controls.Add(pnlRooms);
             MainMenuStrip = menuStrip1;
             Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             Name = "SomerenUI";
@@ -235,10 +269,10 @@
             pnlDashboard.PerformLayout();
             pnlStudents.ResumeLayout(false);
             pnlStudents.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             pnlRooms.ResumeLayout(false);
             pnlRooms.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -263,5 +297,10 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.ListView listViewRooms;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.ColumnHeader roomNumber;
+        private System.Windows.Forms.ColumnHeader building;
+        private System.Windows.Forms.ColumnHeader floor;
+        private System.Windows.Forms.ColumnHeader numberOfBeds;
+        private System.Windows.Forms.ColumnHeader type;
     }
 }

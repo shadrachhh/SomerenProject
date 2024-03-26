@@ -13,7 +13,7 @@ namespace SomerenDAL
         public BaseDao()
         {
             
-                conn = new SqlConnection(ConfigurationManager.ConnectionStrings["SomerenDatabase"].ConnectionString);
+                conn = new SqlConnection(ConfigurationManager.ConnectionStrings["someren-project-server"].ConnectionString);
                 adapter = new SqlDataAdapter();
              
         }

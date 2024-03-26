@@ -11,6 +11,7 @@ namespace SomerenUI
         public SomerenUI()
         {
             InitializeComponent();
+            ShowDashboardPanel();
         }
 
         private void ShowDashboardPanel()
@@ -99,23 +100,25 @@ namespace SomerenUI
         private void DisplayRooms(List<Room> rooms)
         {
             // clear the listview before filling it
-            listViewRooms.Clear();
+            listViewRooms.Items.Clear();
 
             foreach (Room room in rooms)
             {
+                string type = room.type ? "Lecturer" : "Student";
                 ListViewItem li = new ListViewItem(Convert.ToString(room.Number));
+                li.SubItems.Add(room.Building.ToString());
+                li.SubItems.Add(room.floor.ToString());
+                li.SubItems.Add(room.numberOfBeds.ToString());
+                li.SubItems.Add(type);
                 li.Tag = room;   // link room object to listview item
                 listViewRooms.Items.Add(li);
             }
         }
 
-
         private void dashboardToolStripMenuItem1_Click(object sender, System.EventArgs e)
         {
             ShowDashboardPanel();
         }
-
-
 
         private void exitToolStripMenuItem_Click(object sender, System.EventArgs e)
         {
@@ -125,11 +128,6 @@ namespace SomerenUI
         private void studentsToolStripMenuItem_Click(object sender, EventArgs e)
         {
             ShowStudentsPanel();
-        }
-
-        private void listViewRooms_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
         }
 
         private void roomsToolStripMenuItem_Click(object sender, EventArgs e)

@@ -1,19 +1,15 @@
 ﻿using SomerenModel;
-using System;
 using System.Collections.Generic;
-using System.Data.SqlClient;
 using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Data.SqlClient;
 
 namespace SomerenDAL
 {
-        public class RoomsDao : BaseDao
+    public class RoomsDao : BaseDao
         {
             public List<Room> GetAllRooms()
             {
-                string query = "SELECT roomNumber, building, floor, numbeOfRooms FROM accomodation";
+                string query = "SELECT [room number], building, floor, [number of beds], type FROM rooms";
                 SqlParameter[] sqlParameters = new SqlParameter[0];
                 return ReadTables(ExecuteSelectQuery(query, sqlParameters));
             }
@@ -26,11 +22,12 @@ namespace SomerenDAL
                 {
                 Room room = new Room()
                 {
-                    Number = (int)dr["roomNumber"],
-                    Building = (char)dr["building"],
+                    Number = (int)dr["room number"],
+                    Building = ((string)dr["building"])[0],
                     floor = (int)dr["floor"],
-                    numberOfRooms = (int)dr["numbeOfRooms"],
-                    };
+                    numberOfBeds = (int)dr["number of beds"],
+                    type = (bool)dr["type"],
+                };
                     rooms.Add(room);
                 }
                 return rooms;
