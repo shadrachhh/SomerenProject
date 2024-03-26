@@ -2,6 +2,7 @@
 using System.Data.SqlClient;
 using System.Data;
 using SomerenModel;
+using System.Globalization;
 
 namespace SomerenDAL
 {
@@ -13,7 +14,7 @@ namespace SomerenDAL
             SqlParameter[] sqlParameters = new SqlParameter[0];
             return ReadTables(ExecuteSelectQuery(query, sqlParameters));
         }
-
+       
         private List<Student> ReadTables(DataTable dataTable)
         {
             List<Student> students = new List<Student>();
@@ -26,6 +27,8 @@ namespace SomerenDAL
                     Name = dr["Name"].ToString()
                 };
                 students.Add(student);
+                
+               
             }
             return students;
         }

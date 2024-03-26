@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "h7Gi+P+m9dOVHO1ScF+Nmhg9LDvuFNsO+/R+s++SU+usxSacRTDWj2IBwcDV5/uKek86KSm0wLEMbswQ3q7t4Q==",
+  "dgSpecHash": "wmoFlJnbsPJnRRTSnQCapRPmKQl2ZwJ0vidO5VsKru9uRouVXHP3mVe2+eHhcKBzXAbwRt7++OstGrgA97SXjA==",
   "success": true,
   "projectFilePath": "D:\\Inholland\\1st Year\\Term-3\\somerenProject\\SomerenService\\SomerenService.csproj",
   "expectedPackageFiles": [
@@ -10,8 +10,10 @@
     "C:\\Users\\User\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\system.configuration.configurationmanager\\8.0.0\\system.configuration.configurationmanager.8.0.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\system.data.sqlclient\\4.8.5\\system.data.sqlclient.4.8.5.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\system.security.cryptography.protecteddata\\8.0.0\\system.security.cryptography.protecteddata.8.0.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512"
   ],
   "logs": []

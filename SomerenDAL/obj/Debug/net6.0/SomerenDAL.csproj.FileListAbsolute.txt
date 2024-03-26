@@ -13,3 +13,33 @@ C:\Users\gerwin.vandijken\source\repos\Someren\SomerenDAL\obj\Debug\net6.0\ref\S
 C:\Users\gerwin.vandijken\source\repos\Someren\SomerenDAL\bin\Debug\net6.0\SomerenModel.dll
 C:\Users\gerwin.vandijken\source\repos\Someren\SomerenDAL\bin\Debug\net6.0\SomerenModel.pdb
 C:\Users\gerwin.vandijken\source\repos\Someren\SomerenDAL\obj\Debug\net6.0\SomerenDAL.csproj.CopyComplete
+D:\Inholland\1st Year\Term-3\Someren2023[1]\SomerenDAL\bin\Debug\net6.0\SomerenDAL.deps.json
+D:\Inholland\1st Year\Term-3\Someren2023[1]\SomerenDAL\bin\Debug\net6.0\SomerenDAL.dll
+D:\Inholland\1st Year\Term-3\Someren2023[1]\SomerenDAL\bin\Debug\net6.0\SomerenDAL.pdb
+D:\Inholland\1st Year\Term-3\Someren2023[1]\SomerenDAL\bin\Debug\net6.0\SomerenModel.dll
+D:\Inholland\1st Year\Term-3\Someren2023[1]\SomerenDAL\bin\Debug\net6.0\SomerenModel.pdb
+D:\Inholland\1st Year\Term-3\Someren2023[1]\SomerenDAL\obj\Debug\net6.0\SomerenDAL.csproj.AssemblyReference.cache
+D:\Inholland\1st Year\Term-3\Someren2023[1]\SomerenDAL\obj\Debug\net6.0\SomerenDAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Inholland\1st Year\Term-3\Someren2023[1]\SomerenDAL\obj\Debug\net6.0\SomerenDAL.AssemblyInfoInputs.cache
+D:\Inholland\1st Year\Term-3\Someren2023[1]\SomerenDAL\obj\Debug\net6.0\SomerenDAL.AssemblyInfo.cs
+D:\Inholland\1st Year\Term-3\Someren2023[1]\SomerenDAL\obj\Debug\net6.0\SomerenDAL.csproj.CoreCompileInputs.cache
+D:\Inholland\1st Year\Term-3\Someren2023[1]\SomerenDAL\obj\Debug\net6.0\SomerenDAL.csproj.CopyComplete
+D:\Inholland\1st Year\Term-3\Someren2023[1]\SomerenDAL\obj\Debug\net6.0\SomerenDAL.dll
+D:\Inholland\1st Year\Term-3\Someren2023[1]\SomerenDAL\obj\Debug\net6.0\refint\SomerenDAL.dll
+D:\Inholland\1st Year\Term-3\Someren2023[1]\SomerenDAL\obj\Debug\net6.0\SomerenDAL.pdb
+D:\Inholland\1st Year\Term-3\Someren2023[1]\SomerenDAL\obj\Debug\net6.0\ref\SomerenDAL.dll
+D:\Inholland\1st Year\Term-3\somerenProject\SomerenDAL\bin\Debug\net6.0\SomerenDAL.deps.json
+D:\Inholland\1st Year\Term-3\somerenProject\SomerenDAL\bin\Debug\net6.0\SomerenDAL.dll
+D:\Inholland\1st Year\Term-3\somerenProject\SomerenDAL\bin\Debug\net6.0\SomerenDAL.pdb
+D:\Inholland\1st Year\Term-3\somerenProject\SomerenDAL\bin\Debug\net6.0\SomerenModel.dll
+D:\Inholland\1st Year\Term-3\somerenProject\SomerenDAL\bin\Debug\net6.0\SomerenModel.pdb
+D:\Inholland\1st Year\Term-3\somerenProject\SomerenDAL\obj\Debug\net6.0\SomerenDAL.csproj.AssemblyReference.cache
+D:\Inholland\1st Year\Term-3\somerenProject\SomerenDAL\obj\Debug\net6.0\SomerenDAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Inholland\1st Year\Term-3\somerenProject\SomerenDAL\obj\Debug\net6.0\SomerenDAL.AssemblyInfoInputs.cache
+D:\Inholland\1st Year\Term-3\somerenProject\SomerenDAL\obj\Debug\net6.0\SomerenDAL.AssemblyInfo.cs
+D:\Inholland\1st Year\Term-3\somerenProject\SomerenDAL\obj\Debug\net6.0\SomerenDAL.csproj.CoreCompileInputs.cache
+D:\Inholland\1st Year\Term-3\somerenProject\SomerenDAL\obj\Debug\net6.0\SomerenDAL.csproj.CopyComplete
+D:\Inholland\1st Year\Term-3\somerenProject\SomerenDAL\obj\Debug\net6.0\SomerenDAL.dll
+D:\Inholland\1st Year\Term-3\somerenProject\SomerenDAL\obj\Debug\net6.0\refint\SomerenDAL.dll
+D:\Inholland\1st Year\Term-3\somerenProject\SomerenDAL\obj\Debug\net6.0\SomerenDAL.pdb
+D:\Inholland\1st Year\Term-3\somerenProject\SomerenDAL\obj\Debug\net6.0\ref\SomerenDAL.dll
