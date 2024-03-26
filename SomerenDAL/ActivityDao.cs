@@ -24,6 +24,7 @@ namespace SomerenService
         {
             List<activity> activitys = new List<activity>();
 
+
             foreach (DataRow dr in dataTable.Rows)
             {
                 activity activities = new activity()
