@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+ua452UlZl9PCtTcpTTAVQZaYhTEidLjEDS77HrdcUeyBhHAhQS7OGk8y81EJe/aSxY+MQltw9oAjUnSUDoA5g==",
+  "dgSpecHash": "UlZJ3rfN2EJl4irApIFGP4qPbFZdNcPzx0FIYqlPt1cSDUQUq3dpz4rE6fpI/anXK1LljryZWmqr05MhLAvETA==",
   "success": true,
-  "projectFilePath": "T:\\University inholland\\Github workshop\\SomerenProject\\SomerenUI\\SomerenUI.csproj",
+  "projectFilePath": "T:\\University inholland\\Github workshop\\Assignment 2 - Group 6\\SomerenProject\\SomerenUI\\SomerenUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\AsusIran\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\AsusIran\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

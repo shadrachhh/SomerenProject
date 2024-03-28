@@ -28,3 +28,18 @@ T:\University inholland\Github workshop\SomerenProject\SomerenDAL\obj\Debug\net6
 T:\University inholland\Github workshop\SomerenProject\SomerenDAL\obj\Debug\net6.0\refint\SomerenDAL.dll
 T:\University inholland\Github workshop\SomerenProject\SomerenDAL\obj\Debug\net6.0\SomerenDAL.pdb
 T:\University inholland\Github workshop\SomerenProject\SomerenDAL\obj\Debug\net6.0\ref\SomerenDAL.dll
+T:\University inholland\Github workshop\Assignment 2 - Group 6\SomerenProject\SomerenDAL\bin\Debug\net6.0\SomerenDAL.deps.json
+T:\University inholland\Github workshop\Assignment 2 - Group 6\SomerenProject\SomerenDAL\bin\Debug\net6.0\SomerenDAL.dll
+T:\University inholland\Github workshop\Assignment 2 - Group 6\SomerenProject\SomerenDAL\bin\Debug\net6.0\SomerenDAL.pdb
+T:\University inholland\Github workshop\Assignment 2 - Group 6\SomerenProject\SomerenDAL\bin\Debug\net6.0\SomerenModel.dll
+T:\University inholland\Github workshop\Assignment 2 - Group 6\SomerenProject\SomerenDAL\bin\Debug\net6.0\SomerenModel.pdb
+T:\University inholland\Github workshop\Assignment 2 - Group 6\SomerenProject\SomerenDAL\obj\Debug\net6.0\SomerenDAL.csproj.AssemblyReference.cache
+T:\University inholland\Github workshop\Assignment 2 - Group 6\SomerenProject\SomerenDAL\obj\Debug\net6.0\SomerenDAL.GeneratedMSBuildEditorConfig.editorconfig
+T:\University inholland\Github workshop\Assignment 2 - Group 6\SomerenProject\SomerenDAL\obj\Debug\net6.0\SomerenDAL.AssemblyInfoInputs.cache
+T:\University inholland\Github workshop\Assignment 2 - Group 6\SomerenProject\SomerenDAL\obj\Debug\net6.0\SomerenDAL.AssemblyInfo.cs
+T:\University inholland\Github workshop\Assignment 2 - Group 6\SomerenProject\SomerenDAL\obj\Debug\net6.0\SomerenDAL.csproj.CoreCompileInputs.cache
+T:\University inholland\Github workshop\Assignment 2 - Group 6\SomerenProject\SomerenDAL\obj\Debug\net6.0\SomerenDAL.csproj.CopyComplete
+T:\University inholland\Github workshop\Assignment 2 - Group 6\SomerenProject\SomerenDAL\obj\Debug\net6.0\SomerenDAL.dll
+T:\University inholland\Github workshop\Assignment 2 - Group 6\SomerenProject\SomerenDAL\obj\Debug\net6.0\refint\SomerenDAL.dll
+T:\University inholland\Github workshop\Assignment 2 - Group 6\SomerenProject\SomerenDAL\obj\Debug\net6.0\SomerenDAL.pdb
+T:\University inholland\Github workshop\Assignment 2 - Group 6\SomerenProject\SomerenDAL\obj\Debug\net6.0\ref\SomerenDAL.dll
