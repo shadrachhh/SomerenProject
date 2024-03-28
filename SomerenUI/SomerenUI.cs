@@ -11,6 +11,8 @@ namespace SomerenUI
         public SomerenUI()
         {
             InitializeComponent();
+
+            ShowActvityPanel();
         }
 
         private void ShowDashboardPanel()
@@ -68,18 +70,15 @@ namespace SomerenUI
         {
             // hide all other panels
             pnlDashboard.Hide();
-
-
-            // show students
             pnlStudents.Hide();
+
+            // show activity panel
             pnlActivity.Show();
-
-
 
             try
             {
                 // get and display all students
-                List<activity> activities = GetActivity();
+                List<activity> activities = GetActivities();
                 DisplayActivities(activities);
             }
             catch (Exception e)
@@ -88,7 +87,7 @@ namespace SomerenUI
             }
         }
 
-        private List<activity> GetActivity()
+        private List<activity> GetActivities()
         {
             ActivityService activityService = new ActivityService();
             List<activity> activities = activityService.GetActivity();
@@ -98,24 +97,20 @@ namespace SomerenUI
         private void DisplayActivities(List<activity> activities)
         {
             // clear the listview before filling it
-            listViewActivity.Clear();
+            listViewActivity.Items.Clear();
 
-            listViewActivity.Columns.Add("activity ID", 100);
-            listViewActivity.Columns.Add("activity Name", 100);
-            listViewActivity.Columns.Add("StartTime", 100);
-            listViewActivity.Columns.Add("EndTime", 100);
-
+            //listViewActivity.Columns.Add("activity ID", 100);
+            //listViewActivity.Columns.Add("activity Name", 100);
+            //listViewActivity.Columns.Add("StartTime", 100);
+            //listViewActivity.Columns.Add("EndTime", 100);
 
             foreach (activity activity in activities)
             {
                 ListViewItem li = new ListViewItem(activity.ActivityId.ToString());
 
-
                 li.SubItems.Add(activity.Name.ToString());
                 li.SubItems.Add(activity.StartTime.ToString());
                 li.SubItems.Add(activity.EndTime.ToString());
-
-
 
                 li.Tag = activity;   // link student object to listview item
                 listViewActivity.Items.Add(li);
