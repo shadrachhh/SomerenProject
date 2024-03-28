@@ -100,9 +100,23 @@ namespace SomerenUI
             // clear the listview before filling it
             listViewActivity.Clear();
 
+            listViewActivity.Columns.Add("activity ID", 100);
+            listViewActivity.Columns.Add("activity Name", 100);
+            listViewActivity.Columns.Add("StartTime", 100);
+            listViewActivity.Columns.Add("EndTime", 100);
+
+
             foreach (activity activity in activities)
             {
-                ListViewItem li = new ListViewItem($"{activity.ActivityId}  {activity.Name}  {activity.StartTime}  {activity.EndTime}");
+                ListViewItem li = new ListViewItem(activity.ActivityId.ToString());
+
+
+                li.SubItems.Add(activity.Name.ToString());
+                li.SubItems.Add(activity.StartTime.ToString());
+                li.SubItems.Add(activity.EndTime.ToString());
+
+
+
                 li.Tag = activity;   // link student object to listview item
                 listViewActivity.Items.Add(li);
             }
@@ -140,6 +154,11 @@ namespace SomerenUI
         private void activitiesToolStripMenuItem_Click(object sender, EventArgs e)
         {
             ShowActvityPanel();
+        }
+
+        private void listViewActivity_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

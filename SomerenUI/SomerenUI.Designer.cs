@@ -201,7 +201,8 @@
             listViewActivity.Size = new System.Drawing.Size(875, 408);
             listViewActivity.TabIndex = 1;
             listViewActivity.UseCompatibleStateImageBehavior = false;
-            listViewActivity.View = System.Windows.Forms.View.List;
+            listViewActivity.View = System.Windows.Forms.View.Details;
+            listViewActivity.SelectedIndexChanged += listViewActivity_SelectedIndexChanged;
             // 
             // label2
             // 
