@@ -18,6 +18,9 @@ namespace SomerenUI
             // hide all other panels
             pnlStudents.Hide();
 
+            //
+            pnlActivity.Show();
+
             // show dashboard
             pnlDashboard.Show();
         }
@@ -61,7 +64,49 @@ namespace SomerenUI
                 listViewStudents.Items.Add(li);
             }
         }
+        private void ShowActvityPanel()
+        {
+            // hide all other panels
+            pnlDashboard.Hide();
 
+
+            // show students
+            pnlStudents.Hide();
+            pnlActivity.Show();
+
+
+
+            try
+            {
+                // get and display all students
+                List<activity> activities = GetActivity();
+                DisplayActivities(activities);
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show("Something went wrong while loading the students: " + e.Message);
+            }
+        }
+
+        private List<activity> GetActivity()
+        {
+            ActivityService activityService = new ActivityService();
+            List<activity> activities = activityService.GetActivity();
+            return activities;
+        }
+
+        private void DisplayActivities(List<activity> activities)
+        {
+            // clear the listview before filling it
+            listViewActivity.Clear();
+
+            foreach (activity activity in activities)
+            {
+                ListViewItem li = new ListViewItem($"{activity.ActivityId}  {activity.Name}  {activity.StartTime}  {activity.EndTime}");
+                li.Tag = activity;   // link student object to listview item
+                listViewActivity.Items.Add(li);
+            }
+        }
         private void dashboardToolStripMenuItem1_Click(object sender, System.EventArgs e)
         {
             ShowDashboardPanel();
@@ -75,6 +120,26 @@ namespace SomerenUI
         private void studentsToolStripMenuItem_Click(object sender, EventArgs e)
         {
             ShowStudentsPanel();
+        }
+
+        private void SomerenUI_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pnlStudents_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void activitiesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ShowActvityPanel();
         }
     }
 }

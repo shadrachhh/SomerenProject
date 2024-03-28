@@ -10,3 +10,25 @@ C:\Users\gerwin.vandijken\source\repos\Someren\SomerenModel\obj\Debug\net6.0\Som
 C:\Users\gerwin.vandijken\source\repos\Someren\SomerenModel\obj\Debug\net6.0\refint\SomerenModel.dll
 C:\Users\gerwin.vandijken\source\repos\Someren\SomerenModel\obj\Debug\net6.0\SomerenModel.pdb
 C:\Users\gerwin.vandijken\source\repos\Someren\SomerenModel\obj\Debug\net6.0\ref\SomerenModel.dll
+D:\Inholland\1st Year\Term-3\Someren2023[1]\SomerenModel\bin\Debug\net6.0\SomerenModel.deps.json
+D:\Inholland\1st Year\Term-3\Someren2023[1]\SomerenModel\bin\Debug\net6.0\SomerenModel.dll
+D:\Inholland\1st Year\Term-3\Someren2023[1]\SomerenModel\bin\Debug\net6.0\SomerenModel.pdb
+D:\Inholland\1st Year\Term-3\Someren2023[1]\SomerenModel\obj\Debug\net6.0\SomerenModel.GeneratedMSBuildEditorConfig.editorconfig
+D:\Inholland\1st Year\Term-3\Someren2023[1]\SomerenModel\obj\Debug\net6.0\SomerenModel.AssemblyInfoInputs.cache
+D:\Inholland\1st Year\Term-3\Someren2023[1]\SomerenModel\obj\Debug\net6.0\SomerenModel.AssemblyInfo.cs
+D:\Inholland\1st Year\Term-3\Someren2023[1]\SomerenModel\obj\Debug\net6.0\SomerenModel.csproj.CoreCompileInputs.cache
+D:\Inholland\1st Year\Term-3\Someren2023[1]\SomerenModel\obj\Debug\net6.0\SomerenModel.dll
+D:\Inholland\1st Year\Term-3\Someren2023[1]\SomerenModel\obj\Debug\net6.0\refint\SomerenModel.dll
+D:\Inholland\1st Year\Term-3\Someren2023[1]\SomerenModel\obj\Debug\net6.0\SomerenModel.pdb
+D:\Inholland\1st Year\Term-3\Someren2023[1]\SomerenModel\obj\Debug\net6.0\ref\SomerenModel.dll
+D:\Inholland\1st Year\Term-3\somerenProject\SomerenModel\bin\Debug\net6.0\SomerenModel.deps.json
+D:\Inholland\1st Year\Term-3\somerenProject\SomerenModel\bin\Debug\net6.0\SomerenModel.dll
+D:\Inholland\1st Year\Term-3\somerenProject\SomerenModel\bin\Debug\net6.0\SomerenModel.pdb
+D:\Inholland\1st Year\Term-3\somerenProject\SomerenModel\obj\Debug\net6.0\SomerenModel.GeneratedMSBuildEditorConfig.editorconfig
+D:\Inholland\1st Year\Term-3\somerenProject\SomerenModel\obj\Debug\net6.0\SomerenModel.AssemblyInfoInputs.cache
+D:\Inholland\1st Year\Term-3\somerenProject\SomerenModel\obj\Debug\net6.0\SomerenModel.AssemblyInfo.cs
+D:\Inholland\1st Year\Term-3\somerenProject\SomerenModel\obj\Debug\net6.0\SomerenModel.csproj.CoreCompileInputs.cache
+D:\Inholland\1st Year\Term-3\somerenProject\SomerenModel\obj\Debug\net6.0\SomerenModel.dll
+D:\Inholland\1st Year\Term-3\somerenProject\SomerenModel\obj\Debug\net6.0\refint\SomerenModel.dll
+D:\Inholland\1st Year\Term-3\somerenProject\SomerenModel\obj\Debug\net6.0\SomerenModel.pdb
+D:\Inholland\1st Year\Term-3\somerenProject\SomerenModel\obj\Debug\net6.0\ref\SomerenModel.dll
