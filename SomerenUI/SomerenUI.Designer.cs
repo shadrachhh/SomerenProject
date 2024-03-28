@@ -47,6 +47,10 @@
             pictureBox2 = new System.Windows.Forms.PictureBox();
             listViewActivity = new System.Windows.Forms.ListView();
             label2 = new System.Windows.Forms.Label();
+            columnHeader1 = new System.Windows.Forms.ColumnHeader();
+            columnHeader2 = new System.Windows.Forms.ColumnHeader();
+            columnHeader3 = new System.Windows.Forms.ColumnHeader();
+            columnHeader4 = new System.Windows.Forms.ColumnHeader();
             menuStrip1.SuspendLayout();
             pnlDashboard.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -195,13 +199,15 @@
             // 
             // listViewActivity
             // 
+            listViewActivity.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] { columnHeader1, columnHeader2, columnHeader3, columnHeader4 });
             listViewActivity.Location = new System.Drawing.Point(18, 56);
             listViewActivity.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             listViewActivity.Name = "listViewActivity";
             listViewActivity.Size = new System.Drawing.Size(875, 408);
             listViewActivity.TabIndex = 1;
             listViewActivity.UseCompatibleStateImageBehavior = false;
-            listViewActivity.View = System.Windows.Forms.View.List;
+            listViewActivity.View = System.Windows.Forms.View.Details;
+            listViewActivity.SelectedIndexChanged += listViewActivity_SelectedIndexChanged;
             // 
             // label2
             // 
@@ -212,6 +218,25 @@
             label2.Size = new System.Drawing.Size(114, 41);
             label2.TabIndex = 0;
             label2.Text = "Activity";
+            // 
+            // columnHeader1
+            // 
+            columnHeader1.Text = "Id";
+            // 
+            // columnHeader2
+            // 
+            columnHeader2.Text = "Name";
+            columnHeader2.Width = 200;
+            // 
+            // columnHeader3
+            // 
+            columnHeader3.Text = "Start time";
+            columnHeader3.Width = 150;
+            // 
+            // columnHeader4
+            // 
+            columnHeader4.Text = "End time";
+            columnHeader4.Width = 150;
             // 
             // SomerenUI
             // 
@@ -261,5 +286,9 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.ListView listViewActivity;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.ColumnHeader columnHeader1;
+        private System.Windows.Forms.ColumnHeader columnHeader2;
+        private System.Windows.Forms.ColumnHeader columnHeader3;
+        private System.Windows.Forms.ColumnHeader columnHeader4;
     }
 }
