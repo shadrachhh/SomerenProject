@@ -476,11 +476,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Project\\Someren\\SomerenModel\\SomerenModel.csproj",
+      "projectUniqueName": "G:\\SomerenProject\\SomerenModel\\SomerenModel.csproj",
       "projectName": "SomerenModel",
-      "projectPath": "F:\\Project\\Someren\\SomerenModel\\SomerenModel.csproj",
+      "projectPath": "G:\\SomerenProject\\SomerenModel\\SomerenModel.csproj",
       "packagesPath": "C:\\Users\\tabee\\.nuget\\packages\\",
-      "outputPath": "F:\\Project\\Someren\\SomerenModel\\obj\\",
+      "outputPath": "G:\\SomerenProject\\SomerenModel\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -494,8 +494,7 @@
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
       },
       "frameworks": {
         "net6.0": {

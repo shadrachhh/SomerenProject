@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yU95GKOpcH3fLbjDnF2ta9kyv6uZSWY/+SrRycTgpkg5kASNV9+OtBlW1dmwZ0jDAin5FY+wzccbMY6GRMCYmg==",
+  "dgSpecHash": "T5UvrmCxdL5bZcMaMRYN1EIrsU2WNoU5ArrfqhNBV8TSMewKUM4bnBbt8QPOZlsa5OrfZpnRUGD7AU79wmAncg==",
   "success": true,
-  "projectFilePath": "F:\\Project\\Someren\\SomerenService\\SomerenService.csproj",
+  "projectFilePath": "G:\\SomerenProject\\SomerenService\\SomerenService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tabee\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\tabee\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

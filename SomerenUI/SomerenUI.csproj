@@ -15,6 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\SomerenDAL\SomerenDAL.csproj" />
     <ProjectReference Include="..\SomerenModel\SomerenModel.csproj" />
     <ProjectReference Include="..\SomerenService\SomerenService.csproj" />
   </ItemGroup>
